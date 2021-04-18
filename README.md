@@ -2,6 +2,7 @@
 
 ## Linear Regression to Predict MPG
 ![](Resources/Challenge1.png)
+
 **Which Variables provide non-random variance to the mpg values?**
 
 The Vehicle Weight, Vehicle Length, and Ground Clearance all provide non-random variance to the mpg values. Vehicle weight is statistically much more reliable as a predictive variable.
