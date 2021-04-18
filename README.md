@@ -3,18 +3,22 @@
 ## Linear Regression to Predict MPG
 ![](Resources/Challenge1.png)
 * Which Variables provide non-random variance to the mpg values?
+
 The Vehicle Weight, Vehicle Length, and Ground Clearance all provide non-random variance to the mpg values. Vehicle weight is statistically much more reliable as a predictive variable.
 * Is the slope of the linear model considered to be zero?
+
 Our assumed significance level is 0.05%, and the P-value of this linear model is well below that. Because we can reject the null hypothesis, the slope of the model is not zero.
 * Does this linear model predict mpg of MechaCar prototypes effectively?
+
 Because our p-value (5.35e-11) is well below the 0.05% cutoff value, and our R-squared value is around 71.5%, this model does predict the mpg of MechaCar prototypes effectively.
 
 ## Summary Statistics on Suspension Coils
-![](Resources/LotSummary.png)
+![](Resources/lotSummary.png)
 
-![](Resources/TotalSummary.png)
+![](Resources/totalSummary.png)
 
 * The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? 
+
 The total summary statistics show that the variance is only 62.29, which is less than 100 and thus meets the design specification. However, when broken down into by-lot summaries we can see that Lot3 has a variance of 170, which is well above the specified limit. 
 
 ## T-Tests on Suspension Coils
@@ -36,4 +40,4 @@ A useful future test to conduct could analyze MechaCar's customers' total mainte
 * **Metric to be tested:** Average Total Maintenance costs for first 5 years of new vehicle ownership
 * **Null hypothesis:** MechaCar customers do not spend significantly differently than customers of other vehicle manufacturers in the first 5 years after buying a new vehicle.
 * **Statistical test to test hypothesis:** T-test
-* **Data for the statistical test:** Customer maintenance cost information for many manufacturers' vehicles, including MechaCar
+* **Data for the statistical test:** Customer maintenance cost information for many manufacturers' vehicles over the first 5 years, including MechaCar
